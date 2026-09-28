@@ -19,3 +19,27 @@
 
 [Test Service] Shutdown signal received.
 [Test Service] Terminated safely.
+[Service Child] exec failed: No such file or directory
+[Service Child] exec failed: No such file or directory
+[Test Service] Started
+[Test Service] PID  : 2751
+[Test Service] PPID : 2748
+[Test Service] Running... PID = 2751
+[Test Service] Running... PID = 2751
+[Test Service] Running... PID = 2751
+[Test Service] Running... PID = 2751
+[Test Service] Running... PID = 2751
+[Test Service] Running... PID = 2751
+[Test Service] Running... PID = 2751
+
+[Test Service] Shutdown signal received.
+[Test Service] Terminated safely.
+[Test Service] Started
+[Test Service] PID  : 2756
+[Test Service] PPID : 2748
+[Test Service] Running... PID = 2756
+[Test Service] Running... PID = 2756
+[Test Service] Running... PID = 2756
+
+[Test Service] Shutdown signal received.
+[Test Service] Terminated safely.
