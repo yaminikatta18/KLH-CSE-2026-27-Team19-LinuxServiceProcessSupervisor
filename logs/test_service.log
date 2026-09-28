@@ -1,0 +1,21 @@
+[Test Service] Started
+[Test Service] PID  : 1268
+[Test Service] PPID : 1267
+[Test Service] Running... PID = 1268
+[Test Service] Running... PID = 1268
+[Test Service] Running... PID = 1268
+[Test Service] Running... PID = 1268
+[Test Service] Running... PID = 1268
+[Test Service] Running... PID = 1268
+[Test Service] Running... PID = 1268
+[Test Service] Running... PID = 1268
+
+[Test Service] Shutdown signal received.
+[Test Service] Terminated safely.
+[Test Service] Started
+[Test Service] PID  : 1276
+[Test Service] PPID : 1267
+[Test Service] Running... PID = 1276
+
+[Test Service] Shutdown signal received.
+[Test Service] Terminated safely.
