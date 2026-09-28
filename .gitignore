@@ -2,3 +2,4 @@ supervisor
 services/test_service
 *.o
 
+process_monitor
