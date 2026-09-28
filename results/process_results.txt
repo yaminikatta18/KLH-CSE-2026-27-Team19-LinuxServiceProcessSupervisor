@@ -1,0 +1,42 @@
+PROCESS RESULTS
+
+1. Service Start
+The Linux Service Process Supervisor successfully started the test service using fork() and exec().
+The service PID was displayed by the supervisor.
+
+2. Service Status
+The supervisor successfully detected the service as RUNNING and displayed the service PID.
+
+3. Service Stop
+The supervisor successfully sent SIGTERM to the service process.
+The service terminated successfully.
+
+4. Service Status After Stop
+The supervisor correctly reported:
+Service Status: STOPPED
+
+5. Service Restart
+The supervisor successfully restarted the service.
+A new service PID was assigned after restart.
+The supervisor correctly reported:
+Service Status: RUNNING
+
+6. Process Memory Monitoring
+The process_monitor program successfully read process information from /proc/<PID>/status.
+
+Example result:
+PID: 719
+Name: test_service
+State: S (sleeping)
+Pid: 719
+PPid: 718
+VmSize: 2772 kB
+VmRSS: 2016 kB
+
+7. Safe Shutdown
+The supervisor successfully terminated the running service using SIGTERM before exiting.
+The final message confirmed:
+Supervisor terminated safely.
+
+Overall Result:
+The Linux Service Process Supervisor successfully demonstrates process creation, process execution, process monitoring, signal-based termination, service restart, memory monitoring and safe shutdown.
